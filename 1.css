@@ -1,0 +1,168 @@
+body {
+    font-family: sans-serif;
+    background-color: #A9F16C;
+}
+header {
+    background-color: #D235D2;
+}
+header img {
+    width: 150px;
+    height: 110px;
+
+}
+header nav {
+    display: flex;
+    justify-content: center;
+}
+nav a {
+    padding: 10px;
+    text-decoration: none;
+    color:#A9F16C;
+    font-size: 20px;
+}
+nav a:hover {
+    text-shadow: 4px 4px 1px rgb(243, 124, 44);
+}
+header h1 {
+    text-align: center;
+}
+main {
+    background-color: #A9F16C;
+} 
+.puma {
+    color: #FF0000;
+    text-align: center;
+    padding-top: 20px;
+}
+.pronas {
+    color:#D235D2;
+    text-align: center;
+}
+
+
+.pronac {
+
+    color: mediumblue;
+    margin-right: 100px;
+    display: flex;
+}
+
+
+
+.dassler {
+    padding: 5px;
+    border: 5px solid rgb(36, 32, 37);
+    border-radius: 50%;
+    width: 200px;
+    position: absolute;
+    right: 5px;
+    top: 840px;
+    opacity: 0.6;
+}
+.dassler:hover {
+ opacity: 1;
+   border: 5px solid rgb(180, 15, 231);
+ }
+.slogan_text {
+    float:left;
+    color: mediumblue;
+    font-family:'Times New Roman', Times, serif;
+    font-style: oblique;
+font-size: 18px;
+    margin-right: 150px;
+    margin-left: 10px;
+}
+.p{
+    width: 400px;
+}
+.h1 {
+    text-align: center;
+}
+.Katalog {
+    justify-content: center;
+    display: inline-block;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.rsx {
+    border:#D235D2 solid 3px;
+    display: inline-block;
+    width: 255px;
+    background-color: #FFB800;
+    margin: 5px;
+   
+}
+.rsx:hover{
+     width: 260px;
+    
+    transform: scale(1.2);
+    transition: 2s linear;
+   }
+
+.rsx img:hover{
+     width: 260px;
+    transition: 2s linear;
+}
+.rsx img{
+    width: 255px;
+    height: 260px;
+}
+.vidhyk {
+    text-align: center;
+  
+    background-image: linear-gradient(to right bottom, yellow, lightyellow, rgb(176, 236, 236));
+    padding: 7px;
+}
+.vidhyku {
+   
+    display: block;
+    color: rgb(44, 3, 3);
+    border: 1px dotted firebrick;
+    padding: 7px;
+}
+.vidhyku img {
+    width: 100px;
+}
+.div {
+    display: block;
+}
+.div h2 {
+    text-align: center;
+}
+
+.div h2::before {
+    content: url(/uploads/2021/03/question_0_1614951460.svg);
+    width: 30px;
+    height: 45px;
+    display: inline-block;
+}
+.div h2::after {
+    content: url(/uploads/2021/03/question_0_1614951460.svg);
+    width: 30px;
+    height: 45px;
+    display: inline-block;
+}
+footer {
+   
+     background-image: linear-gradient(to right, #FFB800, white, gold);
+}
+.h2 {
+    text-align: center;
+  
+}
+
+aside{
+    border-left: 10px double navy;
+ 
+    padding-left: 10px;
+}
+footer p {
+    text-align: center;
+}
+
+
+footer img {
+    width: 45px;
+   margin-left: 10px;
+}
