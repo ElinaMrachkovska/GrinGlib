@@ -88,13 +88,10 @@ font-size: 18px;
 
 .rsx {
     border:#D235D2 solid 3px;
-   
+    display: inline-block;
     width: 255px;
     background-color: #FFB800;
     margin: 5px;
-     display:flexbox ;
-
- justify-content: space-between;
    
 }
 .rsx:hover{
